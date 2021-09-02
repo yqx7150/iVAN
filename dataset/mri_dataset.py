@@ -39,20 +39,12 @@ class mriDataset(Dataset):
         target_forward_path = self.data['target_forward'][idx]
         input_3_path = self.data['input_3'][idx]
 
-        print('input_2_path',input_2_path)
-        print('target_forward_path',target_forward_path)
-        print('input_3_path',input_3_path)
         
         assert (input_2_path.split('T1_')[-1]) == (target_forward_path.split('T2_')[-1]) == (input_3_path.split('PD_')[-1])
 
         input_2_data = io.loadmat(input_2_path)['data']
         target_forward_data = io.loadmat(target_forward_path)['data']
         input_3_data = io.loadmat(input_3_path)['data']
-
-        print('input_2_data.shape',input_2_data.shape)
-        print('target_forward_data.shape',target_forward_data.shape)
-        print('input_3_data.shape',input_3_data.shape)
-        
 
         h,w = input_2_data.shape
 
