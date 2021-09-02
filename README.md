@@ -49,4 +49,4 @@ python test.py --task=2to1 --out_path="./exps/" --ckpt="./exps/2to1/checkpoint/l
 python test.py --task=1to1 --out_path="./exps/" --ckpt="./exps/1to1/checkpoint/latest.pth"
 
 # Acknowledgement
-The code is based on yzxing87/Invertible-ISP(https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8782831)
+The code is based on [yzxing87/Invertible-ISP](https://github.com/yzxing87/Invertible-ISP)
