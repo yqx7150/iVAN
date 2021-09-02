@@ -8,7 +8,7 @@ The code and the algorithm are for non-comercial use only.
 Copyright 2021, Department of Electronic Information Engineering, Nanchang University.   
 
 ## Optional parameters:  
-weight: Weight for forward loss.
+weight: Weight for forward loss.   
 epoch: Specifies number of iterations.
 
 
