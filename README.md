@@ -10,8 +10,8 @@ Copyright 2021, Department of Electronic Information Engineering, Nanchang Unive
 ## Optional parameters:  
 weight: Weight for forward loss
 
-## The flowchart of iVAN
- ![repeat-MDAEP](/figs/repeat-MDAEP.png)
+## Visual illustration of the invertible medical image synthesis and fusion in variable augmentation manner
+ ![repeat-MDAEP](/figs/Fig 2.jpg)
  
 ## Train
 
