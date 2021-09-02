@@ -9,6 +9,8 @@ Copyright 2021, Department of Electronic Information Engineering, Nanchang Unive
 
 ## Optional parameters:  
 weight: Weight for forward loss
+epoch: Specifies number of iterations
+
 
 ## Visual illustration of the invertible medical image synthesis and fusion in variable augmentation manner
  <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig2.jpg"> </div>
