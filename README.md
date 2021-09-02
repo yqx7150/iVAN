@@ -1,7 +1,18 @@
-# iVAN
+# Variable Augmented Network for Invertible Modality Synthesis-Fusion
+The Code is created based on the method described in the following paper:
 Variable Augmented Network for Invertible Modality Synthesis-Fusion
+Author: Y. Wang, R. Liu, Z. Li, C. Yang.   
+Date :   
+Version : 1.0   
+The code and the algorithm are for non-comercial use only.   
+Copyright 2021, Department of Electronic Information Engineering, Nanchang University.   
 
+## Optional parameters:  
+weight: Weight for forward loss
 
+## The flowchart of iVAN
+ ![repeat-MDAEP](/figs/repeat-MDAEP.png)
+ 
 ## Train
 
 Prepare your own datasets for VAN
