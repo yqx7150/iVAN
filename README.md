@@ -7,7 +7,7 @@ Version : 1.0
 The code and the algorithm are for non-comercial use only.   
 Copyright 2021, Department of Electronic Information Engineering, Nanchang University.   
 
-## Optional parameters:  
+# Optional parameters:  
 weight: Weight for forward loss.   
 epoch: Specifies number of iterations.
 
@@ -26,7 +26,7 @@ epoch: Specifies number of iterations.
  <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig9.jpg"> </div>
 
  
-## Train
+# Train
 
 Prepare your own datasets for VAN
 
@@ -42,8 +42,11 @@ python train.py --task=2to1 --out_path="./exps/"
 To fine-tune a pre-trained model, or resume the previous training, use the --resume flag
 
 
-## Test
+# Test
 
 python test.py --task=2to1 --out_path="./exps/" --ckpt="./exps/2to1/checkpoint/latest.pth"
 
 python test.py --task=1to1 --out_path="./exps/" --ckpt="./exps/1to1/checkpoint/latest.pth"
+
+# Acknowledgement
+The code is based on yzxing87/Invertible-ISP(https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8782831)
