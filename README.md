@@ -44,4 +44,6 @@ To fine-tune a pre-trained model, or resume the previous training, use the --res
 
 ## Test
 
-python test.py --task=test --out_path="./exps/" --ckpt="./exps/train/checkpoint/latest.pth"
+python test.py --task=2to1 --out_path="./exps/" --ckpt="./exps/2to1/checkpoint/latest.pth"
+
+python test.py --task=1to1 --out_path="./exps/" --ckpt="./exps/1to1/checkpoint/latest.pth"
