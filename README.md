@@ -2,7 +2,7 @@
 Variable Augmented Network for Invertible Modality Synthesis-Fusion
 
 
-#========================train=========================
+#train
 #DATA
 Prepare your own datasets for VAN
 
@@ -18,6 +18,6 @@ python train.py --task=2to1 --out_path="./exps/"
 To fine-tune a pre-trained model, or resume the previous training, use the --resume flag
 
 
-#========================test==========================
+#test
 
 python test.py --task=test --out_path="./exps/" --ckpt="./exps/train/checkpoint/latest.pth"
