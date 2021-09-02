@@ -2,8 +2,8 @@
 Variable Augmented Network for Invertible Modality Synthesis-Fusion
 
 
-#train
-#DATA
+##Train
+
 Prepare your own datasets for VAN
 
 You need to create at least two modality medical images from domain A /data/A and from domain B /data/B. Then you can train the model with the dataset flag --root1 './data/A' --root2 './data/B'. Optionally, you can create hold-out test datasets at ./data/A_test and ./data/B_test to test your model.
@@ -18,6 +18,6 @@ python train.py --task=2to1 --out_path="./exps/"
 To fine-tune a pre-trained model, or resume the previous training, use the --resume flag
 
 
-#test
+##Test
 
 python test.py --task=test --out_path="./exps/" --ckpt="./exps/train/checkpoint/latest.pth"
