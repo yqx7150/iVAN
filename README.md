@@ -12,6 +12,15 @@ weight: Weight for forward loss
 
 ## Visual illustration of the invertible medical image synthesis and fusion in variable augmentation manner
  <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig2.jpg"> </div>
+ 
+## The training pipeline of iVAN
+ <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig3.png"> </div>
+ 
+## Two visualization results of synthesizing from T1 to T2
+ <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig6.jpg"> </div>
+ 
+## Three fusion results of T2-weighted MR and CT images
+ <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig9.jpg"> </div>
 
  
 ## Train
