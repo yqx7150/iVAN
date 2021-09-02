@@ -11,7 +11,7 @@ Copyright 2021, Department of Electronic Information Engineering, Nanchang Unive
 weight: Weight for forward loss
 
 ## Visual illustration of the invertible medical image synthesis and fusion in variable augmentation manner
- ![Fig%202](/figs/Fig%202.jpg)
+ <div align="center"><img src="https://github.com/yqx7150/iVAN/blob/main/figs/Fig%202.jpg" width = "400" height = "450">  </div>
 
  
 ## Train
