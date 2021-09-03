@@ -1,7 +1,7 @@
 # Variable Augmented Network for Invertible Modality Synthesis-Fusion
 The Code is created based on the method described in the following paper:
 Variable Augmented Network for Invertible Modality Synthesis-Fusion
-Author: Y. Wang, R. Liu, Z. Li, C. Yang.   
+Author: Y. Wang, R. Liu, Z. Li, C. Yang, Q. Liu.   
 Date :   
 Version : 1.0   
 The code and the algorithm are for non-comercial use only.   
