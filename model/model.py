@@ -102,9 +102,9 @@ class InvBlock(nn.Module):
         self.G = subnet_constructor(self.split_len1, self.split_len2)
         self.H = subnet_constructor(self.split_len1, self.split_len2)
 
-        in_channels = 2  ##修改进网络的通道数        
+        in_channels = 2      
         self.invconv = InvertibleConv1x1(in_channels, LU_decomposed=True)
-        self.flow_permutation = lambda z, logdet, rev: self.invconv(z, logdet, rev)  #问题在这self.invconv
+        self.flow_permutation = lambda z, logdet, rev: self.invconv(z, logdet, rev)  
         
     def forward(self, x, rev=False):
         if not rev:            
@@ -133,13 +133,13 @@ class InvBlock(nn.Module):
         return out
 
 class InvISPNet(nn.Module):
-    def __init__(self, channel_in=2, channel_out=2, subnet_constructor=subnet('DBNet'), block_num=8):   ##channel_in=4, channel_out=4修改进网络的通道数
+    def __init__(self, channel_in=2, channel_out=2, subnet_constructor=subnet('DBNet'), block_num=8):   
         super(InvISPNet, self).__init__()
         operations = []
 
         current_channel = channel_in
         channel_num = channel_in
-        channel_split_num = 1  #分离的通道数！！ 要修改
+        channel_split_num = 1 
 
         for j in range(block_num): 
             b = InvBlock(subnet_constructor, channel_num, channel_split_num) # one block is one flow step. 
