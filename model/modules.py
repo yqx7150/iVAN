@@ -362,7 +362,7 @@ class InvertibleConv1x1(nn.Module):
             #assert 0
 
             if reverse:
-                u_inv = torch.inverse(u)   #这
+                u_inv = torch.inverse(u)   
                 l_inv = torch.inverse(lower)
                 p_inv = torch.inverse(self.p)
 
@@ -376,7 +376,7 @@ class InvertibleConv1x1(nn.Module):
         """
         log-det = log|abs(|W|)| * pixels
         """
-        weight, dlogdet = self.get_weight(input, reverse)  #问题在这
+        weight, dlogdet = self.get_weight(input, reverse)  
 
         if not reverse:
             z = F.conv2d(input, weight)
