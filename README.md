@@ -1,8 +1,10 @@
-# Variable Augmented Network for Invertible Modality Synthesis-Fusion
-The Code is created based on the method described in the following paper:
-Variable Augmented Network for Invertible Modality Synthesis-Fusion
-Author: Y. Wang, R. Liu, Z. Li, C. Yang, Q. Liu.   
-https://arxiv.org/ftp/arxiv/papers/2109/2109.00670.pdf          
+# Variable Augmented Network for Invertible Modality Synthesis-Fusion    
+The Code is created based on the method described in the following paper:     
+Variable Augmented Network for Invertible Modality Synthesis and Fusion    
+Y. Wang, R. Liu, Z. Li, S. Wang, C. Yang, Q. Liu   
+IEEE Journal of Biomedical and Health Informatics
+Page: 2898 - 2909, Volume: 27 Issue: 6, 2023.
+https://ieeexplore.ieee.org/abstract/document/10070774               
 Date : Sep. 1, 2021  
 Version : 1.0   
 The code and the algorithm are for non-comercial use only.   
