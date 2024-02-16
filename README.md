@@ -2,7 +2,7 @@
 The Code is created based on the method described in the following paper:     
 Variable Augmented Network for Invertible Modality Synthesis and Fusion    
 Y. Wang, R. Liu, Z. Li, S. Wang, C. Yang, Q. Liu   
-IEEE Journal of Biomedical and Health Informatics
+IEEE Journal of Biomedical and Health Informatics     
 Page: 2898 - 2909, Volume: 27 Issue: 6, 2023.
 https://ieeexplore.ieee.org/abstract/document/10070774               
 Date : Sep. 1, 2021  
