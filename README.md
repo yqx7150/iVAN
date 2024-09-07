@@ -62,7 +62,7 @@ The code is based on [yzxing87/Invertible-ISP](https://github.com/yzxing87/Inver
 
  * Virtual coil augmentation for MR coil extrapoltion via deep learning  [<font size=5>**[Paper]**</font>](https://www.sciencedirect.com/science/article/abs/pii/S0730725X22001722)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/VCA)    
 
-  * Synthetic CT Generation via Invertible Network for All-digital Brain PET Attenuation Correction  [<font size=5>**[Paper]**</font>](https://arxiv.org/abs/2310.01885)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/PET_AC_sCT)        
+ * Synthetic CT Generation via Variant Invertible Network for Brain PET Attenuation Correction  [<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/document/10666843)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/PET_AC_sCT)               
 
   * Invertible and Variable Augmented Network for Pretreatment Patient-Specific Quality Assurance Dose Prediction  [<font size=5>**[Paper]**</font>](https://link.springer.com/article/10.1007/s10278-023-00930-w)       
     
